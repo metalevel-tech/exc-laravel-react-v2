@@ -1,0 +1,150 @@
+{
+  "cSpell.words": [
+    "atmosphering",
+    "Avenir",
+    "Bootcamp",
+    "COCOSOLIS",
+    "Codacy",
+    "daisyui",
+    "distros",
+    "dompurify",
+    "ffprobe",
+    "Figtree",
+    "Guac",
+    "Hackintosh",
+    "headlessui",
+    "heroicons",
+    "homeworld",
+    "hyperdrive",
+    "inertiajs",
+    "infobox",
+    "Jigarius",
+    "Kenobi",
+    "Laracasts",
+    "Laravel",
+    "libopus",
+    "libvpx",
+    "libx",
+    "MGLT",
+    "noreferrer",
+    "opensearch",
+    "predeploy",
+    "qrgenerator",
+    "Roboto",
+    "Skywalker",
+    "Srch",
+    "Starjedi",
+    "Starjout",
+    "starships",
+    "starwars",
+    "SWAPI",
+    "tailwindcss",
+    "Teximp",
+    "thumbimage",
+    "todos",
+    "usehooks",
+    "veryslow",
+    "webm",
+    "wookieepedia",
+    "Yambol"
+  ],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "php"],
+  "spellright.language": ["en-US-10-1.", "en-US-9-0."],
+
+  /**
+   * Editor and File Settings
+   */
+  "editor.formatOnSave": true,
+  // "editor.defaultFormatter": null,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "jspm_packages": true,
+    "node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    ".git/**/*": "plaintext",
+    ".htacces*": "apacheconf"
+  },
+
+  /**
+   * Markdown
+   */
+  "markdownlint.config": {
+    "MD033": false,
+    "MD036": false
+  },
+
+  /**
+   * YAML
+   */
+  "[yaml]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false
+  },
+
+  /**
+   * CSS
+   */
+  "css.lint.unknownAtRules": "ignore",
+  "css.format.spaceAroundSelectorSeparator": true,
+
+  /**
+   * PHP
+   */
+  "php.suggest.basic": true,
+  "php.completion.parameters": "parameters",
+  "intelephense.phpdoc.useFullyQualifiedNames": true,
+  "php.completion.autoimport-docblock": "fqn",
+  "intelephense.diagnostics.undefinedMethods": false,
+  "php.problems.exclude": {
+    "/": [406],
+    "vendor/": true
+  },
+
+  /**
+   * TypeScript / JavaScript / React
+   */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "reactSnippets.settings.importReactOnTop": true,
+  "reactSnippets.settings.prettierEnabled": true,
+
+  // "prettier.semi": true,
+  // "prettier.singleQuote": false,
+  // "prettier.jsxSingleQuote": false,
+  // "prettier.trailingComma": "none",
+  // "prettier.singleAttributePerLine": true,
+  // "prettier.bracketSpacing": true,
+  // "prettier.printWidth": 90,
+
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "npm-intellisense.importQuotes": "\"",
+  "npm-intellisense.importLinebreak": "auto",
+
+  "javascript.preferences.quoteStyle": "double",
+  // "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.autoClosingTags": true,
+
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.validate.enable": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.tsserver.maxTsServerMemory": 6144,
+  "typescript.autoClosingTags": true
+}
