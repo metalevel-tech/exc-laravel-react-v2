@@ -24,7 +24,7 @@ This is an exercise project for the Laravel and React Full-stack App course of t
 **Todo**
 
 - [x] Switch to TypeScript/TSX.
-- [ ] Install Dark theme.
+- [x] Install Dark theme.
 - [ ] Setup Nginx as a reverse proxy for the Laravel app dev server.
 - [ ] Migrate all the components from [JavaScript/JSX](resources/js) to [TypeScript/TSX](resources/ts).
 
